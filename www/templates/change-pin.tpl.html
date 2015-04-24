@@ -1,0 +1,69 @@
+<ion-view view-title="Change pin" class="pinsecurety">
+    <ion-content  scroll="false"> 
+       <br><br>
+        <div class="col logo text-center">
+            <!--img src="./img/Logo_slider.png" /-->
+        </div>
+
+        <div class="row">
+            <div class="col message text-center title">
+                <h5 class="title"> {{message}}</h5>
+            </div>
+        </div>
+
+        <div class="col text-center">
+            <!-- dots - indication entering digitals  -->
+            <div ng-repeat="x in [0,1,2,3]" class="dot" ng-class="{'dot-full' : pin[x] }"></div>
+        </div>
+
+        <div class="row">
+            <div class="col col-10"></div>
+            <div class="col keyboard text-center">
+                <div class="row">
+                    <div class="col col-33">
+                        <button ng-click="enter(1)" class="button button-light">1</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(2)" class="button button-light">2</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(3)" class="button button-light">3</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-33">
+                        <button ng-click="enter(4)" class="button button-light">4</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(5)" class="button button-light">5</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(6)" class="button button-light">6</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-33">
+                        <button ng-click="enter(7)" class="button button-light">7</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(8)" class="button button-light">8</button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(9)" class="button button-light">9</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-33">
+                        <button ng-click="del()" class="ion-arrow-left-c button button-light"></button>
+                    </div>
+                    <div class="col col-33">
+                        <button ng-click="enter(0)" class="button button-light">0</button>
+                    </div>
+                    <div class="col col-20"></div>
+                </div>
+            </div>
+            <div class="col col-10"></div>
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,41 @@
+/* Security Pin - dot style */
+.dot{
+      display: inline-block;
+    z-index: 10;
+    margin: 5px;
+    width: 1em;
+    height: 1em;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.dot-full {
+  background: red;
+}
+
+.circle-white {
+    display: inline-block; 
+}
+/*  Security Pin  - keyboard style */
+.keyboard .button {
+    border:none;
+    border-radius: 50px;
+    color: red;
+   /* background-color: snow;*/
+    text-align: center;
+    font-size: 15pt;
+}
+/* Security Pin - logo */
+.logo {
+    background: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*  background-size: 100%;*/
+    
+    background-position: center;
+    position: relative;
+    width: 80%;
+    height: 4em;
+    margin: auto; 
+}
