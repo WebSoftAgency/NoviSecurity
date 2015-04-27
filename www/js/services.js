@@ -61,7 +61,7 @@ angular.module('novi.service', [])
  }])
 .factory('usersService', ['$q', '$timeout', function($q, $timeout){
 	var demoUser = 'demo';
-	var demoPassword = '1234';
+	var demoPassword = '1111';
 	var auth = true;  
 	return {
 		userAuth : function( username, password){
