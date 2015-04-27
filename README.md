@@ -1,7 +1,7 @@
 About
 =========
 
- Сomponent вemonstration work with secret pins. Requests pin when the native platform pulls the application into the background.
+ Сomponent demonstration work with secret pins. Requests pin when the native platform pulls the application into the background.
 
 Installisation
 =========
